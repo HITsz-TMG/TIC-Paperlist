@@ -9,11 +9,11 @@ A curated list of must-read papers on leveraging the visual representation of te
 
 ## 💡 Introduction
 
+![p2](./images/p1.png)
+
 The quadratic complexity of self-attention mechanisms in Large Language Models (LLMs) presents a significant bottleneck for processing long-text inputs. A groundbreaking paradigm has emerged that circumvents traditional text tokenizers by representing text as pixels. This "text-as-image" approach allows powerful vision encoders to "read" and compress information, transforming a long sequence of text tokens into a much shorter sequence of visual tokens. This method not only promises to dramatically extend the effective context length of models but also inherently handles challenges like multi-language processing and noisy text with a unified solution. The current state-of-the-art is moving towards creating highly efficient, intelligent compression systems that are ready for real-world application, extending the capabilities of models to handle entire documents, books, and codebases seamlessly.
 
 This research area has progressed from foundational works establishing the viability of pixel-based language learning to more advanced frameworks focused on optimization and practical application. The initial stage proved that models could learn language directly from rendered text, bypassing vocabulary limitations. Subsequent research focused on enhancing the performance of these models and explicitly framing the technique as a method for input compression, quantifying its efficiency gains. The latest stage involves the development of sophisticated, end-to-end frameworks that employ intelligent architectures, often mimicking human reading behaviors, to achieve state-of-the-art compression efficiency and performance.
-
-![p2](./images/p1.png)
 
 ## Table of Contents
 
