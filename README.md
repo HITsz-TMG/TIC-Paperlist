@@ -120,7 +120,7 @@ This research area has progressed from foundational works establishing the viabi
   - **Methodology**: Proposed VIST, a "slow-fast" framework where a lightweight vision encoder "skims" distant context (fast path) and the LLM "reads" core context (slow path). It uses a Probability-Informed Visual Enhancement (PVE) objective to focus on low-frequency, high-information words.
   - **Key Contributions**: Presented a state-of-the-art framework that intelligently allocates computational resources, moving the field from simple compression to highly efficient and cognitively inspired systems.
 
-- **[DeepSeek-OCR: Contexts Optical Compression](https://github.com/deepseek-ai/DeepSeek-OCR)** <br>
+- **[DeepSeek-OCR: Contexts Optical Compression](https://arxiv.org/abs/2510.18234)** <br>
   *Haoran Wei, Yaofeng Sun, Yukun Li* <br>
   **DeepSeek-AI** <br>
   - **Core Problem**: To investigate the feasibility of compressing long contexts via optical 2D mapping and to determine the vision token requirements for accurate decoding.
